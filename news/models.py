@@ -6,5 +6,6 @@ class NewsThree(models.Model):
     description = models.TextField()
     image = models.URLField()
 
+
     def __str__(self):
         return self.title 
